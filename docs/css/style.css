@@ -101,12 +101,12 @@
     font-style: italic;
 }
 
+
+/*This is end of the left-side style*/
+
 .footer {
     float: right;
     padding-right: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
-
-/*This is end of the left-side style*/
