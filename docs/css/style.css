@@ -1,0 +1,112 @@
+* {
+    max-width: 100%;
+    margin: auto;
+}
+
+
+/*This is start of the header style*/
+
+.header {
+    background-color: rgb(168, 121, 212);
+    color: white;
+    height: 500px;
+    position: relative;
+}
+
+#img {
+    float: right;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+#name {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 100px;
+    padding: 90px;
+    text-transform: uppercase;
+}
+
+#about_me {
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+}
+
+#paragraphstyle {
+    padding-left: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*This is end of the header style*/
+
+
+/*This is start of the right-side style*/
+
+.right-side {
+    background-color: rgb(224, 140, 182);
+    width: 450px;
+    height: 1100px;
+    color: white;
+    position: relative;
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#rside_h3 {
+    padding-left: 20px;
+    font-family: 'Exo', sans-serif;
+}
+
+
+/*This is end of the right-side style*/
+
+
+/*This is start of the left-side style*/
+
+.left-side {
+    background-color: rgba(255, 245, 245, 0.603);
+    height: 1100px;
+    color: rgba(223, 60, 141, 0.884);
+}
+
+#lside_h3 {
+    padding-left: 30px;
+    font-family: 'Exo', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+#lside_h4 {
+    padding-left: 30px;
+    font-family: 'Exo', sans-serif;
+}
+
+#lside_p {
+    padding-left: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#lside_p1 {
+    padding-left: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+}
+
+#lside_ul {
+    padding-left: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.footer {
+    float: right;
+    padding-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*This is end of the left-side style*/
