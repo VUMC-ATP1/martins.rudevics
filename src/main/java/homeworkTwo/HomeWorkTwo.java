@@ -6,17 +6,28 @@ public class HomeWorkTwo {
     public static void main(String[] args) {
 
         System.out.println("TASK - 1\n");
-        // a.whether x is positive (get result true)
+
+        /*
+        Task1
+        You need to write logical expressions and output true/false in the Main method
+         */
+
         int x = 6;
+        // a.whether x is positive (get result true)
         System.out.printf("Is number " + x + " positive: %b%n", x > 0);
+
         // b.whether x is negative (result false)
         System.out.printf("Is number " + x + " negative: %b%n", x < 0);
+
         // c.whether x is greater than 5 and x is less than or equal to 10 (get result true)
         System.out.printf("Is number " + x + " greater than 5 and is less than or equal to 10: %b%n", x > 5 && x <= 10);
+
         // d.whether x is NOT less than or equal to 5 and x is less than 10 (get result true)
         System.out.printf("Is number " + x + " NOT less or equal to 5 and is less than 10: %b%n", x >= 5 && x < 10);
+
         // e.x equals 0 or x equals 10 (result false)
         System.out.printf("Is number " + x + " equals 0 or equals 10: %b%n", x == 0 || x == 10);
+
         //f.whether the product of x * x is greater than 10 (results true)
         System.out.printf("Is product of x * x is greater than 10: %b%n", x * x > 10);
 
@@ -26,7 +37,6 @@ public class HomeWorkTwo {
         Task2
         Write a program that accepts the Month number (integer) and displays the month name with the word. (use switch)
         */
-
 
         int nameOfTheMonth;
         Scanner scanner = new Scanner(System.in);
@@ -75,10 +85,12 @@ public class HomeWorkTwo {
         }
 
         System.out.println("\nTASK - 3\n");
+
         /*
         Task3:
         Write a program that accepts three integers and outputs to the screen which is the largest of the three integers.
         */
+
         int num1, num2, num3;
         Scanner sc = new Scanner(System.in);
         System.out.print("Please enter first number: ");
@@ -93,6 +105,7 @@ public class HomeWorkTwo {
         System.out.println("The largest number between three entered numbers is " + theLargestNumber);
 
         System.out.println("\nTASK - 4\n");
+
         /*
         Task 4
         write a program that reads the colour (String) red/yellow/green and outputs to the screen the pedestrian's
@@ -112,12 +125,14 @@ public class HomeWorkTwo {
         }
 
         System.out.println("\nTASK - 5\n");
+
         /*
         Task 5
         Write a separate method printBusinessCard that returns nothing but displays a business card with the
         person's name, phone and year of birth. In the main method, call this method three times and display the
         business card 3 times.
          */
+
         printBusinessCard();
         printBusinessCard();
         printBusinessCard();
@@ -131,9 +146,9 @@ public class HomeWorkTwo {
         The method does not need to return any value. Call the method 2 times in the main() method with
         different parameters
          */
+
         printBusinessCardTwo("Pete", "Pen", "+371 12345678", 1950);
         printBusinessCardTwo("Sam", "Church", "+370 12345678", 1960);
-
 
         System.out.println("\nTASK - 7\n");
 
@@ -145,7 +160,6 @@ public class HomeWorkTwo {
         int summa = sum(20, 50);
         System.out.println("Two interger sum is: " + summa);
 
-
         System.out.println("\nTASK - 8\n");
         /*
         Task 8
@@ -155,7 +169,6 @@ public class HomeWorkTwo {
 
         System.out.println("The average of three decimal numbers is: " + average(20.6d, 25.3d, 60d));
     }
-
 
     //Method for Task 5
     public static void printBusinessCard() {
@@ -167,7 +180,6 @@ public class HomeWorkTwo {
         System.out.println("Year of birth: 1990");
         System.out.println("##########");
     }
-
 
     // Method for Task 6
     public static void printBusinessCardTwo(String name, String surname, String phoneNumber, int yearOfBirth) {
