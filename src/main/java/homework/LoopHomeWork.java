@@ -52,7 +52,7 @@ public class LoopHomeWork {
             System.out.println(userNumber + " is not a Prime number");
         }
 
-        System.out.println("\n>>>Task3<<<\n");
+        System.out.println("\n>>>Task 3<<<\n");
 
         /*
         TASK 3
@@ -208,7 +208,7 @@ public class LoopHomeWork {
 
         }
 
-        System.out.println("\n>>>Task4<<<\n");
+        System.out.println("\n>>>Task 4<<<\n");
 
         /*
         TASK 4
@@ -227,7 +227,7 @@ public class LoopHomeWork {
             }
         }
 
-        System.out.println("\n>>>Task5<<<\n");
+        System.out.println("\n>>>Task 5<<<\n");
 
         /*
         TASK 5
@@ -239,9 +239,7 @@ public class LoopHomeWork {
         System.out.print("Please enter a whole number: ");
         int userNumber1 = scan.nextInt();
 
-
         long factorialNumber = 1;
-
         if (userNumber1 < 1) {
             System.out.println("INVALID VALUE. PLEASE ENTER NON-NEGATIVE NUMBER.");
         }
@@ -261,10 +259,8 @@ public class LoopHomeWork {
           When you have finished trying, display "Sorry, but you are locked out".
            */
 
-
         System.out.print("Provide four digit PIN number: ");
         int userEnterPin = scan.nextInt();
-
 
         if (userEnterPin == PIN) {
             System.out.println("PIN accepted, welcome back.");
