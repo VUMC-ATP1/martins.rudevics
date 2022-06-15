@@ -284,6 +284,26 @@ public class LoopHomeWork {
                 }
             }
         }
+
+        System.out.println("\nImproved version of Task 6\n");
+
+        System.out.print("Provide four digit PIN number: ");
+        userEnterPin = scan.nextInt();
+        int countOfattemps = 0;
+        for (int i = 0; i < 3; i++) {
+            if (PIN == userEnterPin) {
+                System.out.println("PIN accepted, welcome back.");
+                break;
+            } else {
+                countOfattemps++;
+                if (countOfattemps == 3) {
+                    System.out.println("Sorry, but you are locked out.");
+                } else {
+                    System.out.println("Invalid PIN, Try again.");
+                    userEnterPin = scan.nextInt();
+                }
+            }
+        }
     }
 }
 
