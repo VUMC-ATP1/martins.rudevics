@@ -53,7 +53,5 @@ public class Example {
         visitFourthCustomerVisitor.setServiceExpense(50);
 
         System.out.println("Customer " + visitFourthCustomerVisitor.getName() + " spend in total in product and services: " + visitFourthCustomerVisitor.getTotalExpense() + " EUR");
-
-
     }
 }
